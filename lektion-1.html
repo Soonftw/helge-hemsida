@@ -1,152 +1,178 @@
 <!doctype html>
 <html lang="sv">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lektion 1: Vad är AI? | Tre lektioner i AI</title>
-  <meta name="description" content="Lektion 1 i Tre lektioner i AI handlar om vad AI är, vad som inte är AI och hur maskininlärning kan förklaras för gymnasieelever.">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lektion 1: Vad är AI? | Tre lektioner i AI</title>
+    <meta
+      name="description"
+      content="Lektion 1 i Tre lektioner i AI handlar om vad AI är, vad som inte är AI och hur maskininlärning kan förklaras för gymnasieelever."
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-<body>
-  <a class="skip-link" href="#main">Hoppa till innehåll</a>
+  <body>
+    <a class="skip-link" href="#main">Hoppa till innehåll</a>
 
-  <header class="site-header">
-    <nav class="navbar container" aria-label="Huvudnavigation">
-      <a class="brand" href="index.html" aria-label="Tre lektioner i AI, startsida">
-        <span class="brand-mark" aria-hidden="true">AI</span>
-        <span class="brand-text">
-          <strong>Tre lektioner i AI</strong>
-          <small>för gymnasieskolan</small>
-        </span>
-      </a>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Huvudnavigation">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="Tre lektioner i AI, startsida"
+        >
+          <span class="brand-mark" aria-hidden="true">AI</span>
+          <span class="brand-text">
+            <strong>Tre lektioner i AI</strong>
+            <small>för gymnasieskolan</small>
+          </span>
+        </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
-        <span class="sr-only">Öppna meny</span>
-        <span class="hamburger" aria-hidden="true"></span>
-      </button>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <span class="sr-only">Öppna meny</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
 
-      <ul class="nav-menu" id="primary-menu">
-        <li><a href="index.html">Start</a></li>
-        <li><a href="lektion-1.html" aria-current="page">Lektion 1</a></li>
-        <li><a href="lektion-2.html">Lektion 2</a></li>
-        <li><a href="lektion-3.html">Lektion 3</a></li>
-        <li><a href="om-oss.html">Om oss</a></li>
-        <li><a class="nav-cta" href="index.html#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
+        <ul class="nav-menu" id="primary-menu">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="lektion-1.html" aria-current="page">Lektion 1</a></li>
+          <li><a href="lektion-2.html">Lektion 2</a></li>
+          <li><a href="lektion-3.html">Lektion 3</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a class="nav-cta" href="index.html#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main id="main">
-    <section class="page-hero">
-      <div class="container narrow fade-in">
-        <p class="eyebrow">Lektion 1</p>
-        <h1>Vad är AI?</h1>
-        <p class="lead">
-          Eleverna får en grundläggande förståelse för vad artificiell intelligens är, hur AI skiljer sig från vanlig regelstyrd teknik
-          och varför data spelar så stor roll.
-        </p>
-      </div>
-    </section>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container narrow fade-in">
+          <p class="eyebrow">Lektion 1</p>
+          <h1>Vad är AI?</h1>
+          <p class="lead">
+            Eleverna får en grundläggande förståelse för vad artificiell
+            intelligens är, hur AI skiljer sig från vanlig regelstyrd teknik och
+            varför data spelar så stor roll.
+          </p>
+        </div>
+      </section>
 
-    <section class="section pt-small">
-      <div class="container lesson-layout">
-        <div class="lesson-main">
-          <article class="content-card fade-in">
-            <h2>Film</h2>
+      <section class="section pt-small">
+        <div class="container lesson-layout">
+          <div class="lesson-main">
+            <article class="content-card fade-in">
+              <h2>Film</h2>
 
               <div class="video-frame">
                 <video controls preload="metadata">
-                  <source src="videos/lektion-1.mp4" type="video/mp4">
+                  <source src="videos/lektion-1.mp4" type="video/mp4" />
                   Din webbläsare kan inte spela upp videon.
                 </video>
               </div>
 
-            <!-- <div class="video-placeholder" role="img" aria-label="Plats för film till lektion 1">
+              <!-- <div class="video-placeholder" role="img" aria-label="Plats för film till lektion 1">
               <div>
                 <span class="play-symbol" aria-hidden="true">▶</span>
                 <h3>Filmplats</h3>
                 <p>Byt ut den här rutan mot en inbäddad film eller en MP4-fil.</p>
               </div>
             </div> -->
-          </article>
+            </article>
 
-          <article class="content-card fade-in">
-            <h2>Förslag på lektionsupplägg</h2>
-            <ol class="timeline">
-              <li>
-                <strong>Startfråga:</strong>
-                Låt eleverna skriva eller diskutera: “Vad tänker du på när du hör ordet AI?”
-              </li>
-              <li>
-                <strong>Film:</strong>
-                Visa filmen och pausa vid markerade diskussionspunkter.
-              </li>
-              <li>
-                <strong>Aktivitet:</strong>
-                Genomför övningen “AI eller inte AI?” med exempel från elevernas vardag.
-              </li>
-              <li>
-                <strong>Begrepp:</strong>
-                Sammanfatta AI, maskininlärning, data, modell och gränsfall.
-              </li>
-              <li>
-                <strong>Exit ticket:</strong>
-                Eleverna skriver: “AI är inte bara…” och “En fråga jag fortfarande har är…”
-              </li>
-            </ol>
-          </article>
+            <article class="content-card fade-in">
+              <h2>Förslag på lektionsupplägg</h2>
+              <ol class="timeline">
+                <li>
+                  <strong>Startfråga:</strong>
+                  Låt eleverna skriva eller diskutera: “Vad tänker du på när du
+                  hör ordet AI?”
+                </li>
+                <li>
+                  <strong>Film:</strong>
+                  Visa filmen och pausa vid markerade diskussionspunkter.
+                </li>
+                <li>
+                  <strong>Aktivitet:</strong>
+                  Genomför övningen “AI eller inte AI?” med exempel från
+                  elevernas vardag.
+                </li>
+                <li>
+                  <strong>Begrepp:</strong>
+                  Sammanfatta AI, maskininlärning, data, modell och gränsfall.
+                </li>
+                <li>
+                  <strong>Exit ticket:</strong>
+                  Eleverna skriver: “AI är inte bara…” och “En fråga jag
+                  fortfarande har är…”
+                </li>
+              </ol>
+            </article>
+          </div>
+
+          <aside class="lesson-side">
+            <div class="download-card fade-in">
+              <h2>Material</h2>
+              <a
+                class="button button-primary full-width"
+                href="downloads/lektion-1-lararhandledning.pdf"
+                >Lärarhandledning</a
+              >
+              <a
+                class="button button-secondary full-width"
+                href="downloads/lektion-1-elevuppgifter.pdf"
+                >Elevuppgifter</a
+              >
+            </div>
+
+            <div class="side-card fade-in">
+              <h2>Eleverna får lära sig</h2>
+              <ul class="check-list">
+                <li>förklara AI med egna ord</li>
+                <li>ge exempel på AI i vardagen</li>
+                <li>skilja mellan AI och regelstyrd teknik</li>
+                <li>förstå grundidén i maskininlärning</li>
+                <li>resonera om varför AI kan göra fel</li>
+              </ul>
+            </div>
+
+            <a class="next-card fade-in" href="lektion-2.html">
+              <span>Nästa lektion</span>
+              <strong>AI och etik →</strong>
+            </a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="footer-brand" href="index.html">Tre lektioner i AI</a>
+          <p>Material för gymnasieskolan om AI, etik och lärande.</p>
         </div>
 
-        <aside class="lesson-side">
-          <div class="download-card fade-in">
-            <h2>Material</h2>
-            <p>Ladda ner eller byt ut länkarna mot dina egna PDF-filer.</p>
-            <a class="button button-primary full-width" href="downloads/lektion-1-lararhandledning.pdf">Lärarhandledning</a>
-            <a class="button button-secondary full-width" href="downloads/lektion-1-elevuppgifter.pdf">Elevuppgifter</a>
-          </div>
-
-          <div class="side-card fade-in">
-            <h2>Eleverna får lära sig</h2>
-            <ul class="check-list">
-              <li>förklara AI med egna ord</li>
-              <li>ge exempel på AI i vardagen</li>
-              <li>skilja mellan AI och regelstyrd teknik</li>
-              <li>förstå grundidén i maskininlärning</li>
-              <li>resonera om varför AI kan göra fel</li>
-            </ul>
-          </div>
-
-          <a class="next-card fade-in" href="lektion-2.html">
-            <span>Nästa lektion</span>
-            <strong>AI och etik →</strong>
-          </a>
-        </aside>
+        <nav aria-label="Sidfot">
+          <a href="lektion-1.html">Lektion 1</a>
+          <a href="lektion-2.html">Lektion 2</a>
+          <a href="lektion-3.html">Lektion 3</a>
+          <a href="om-oss.html">Om oss</a>
+          <a href="index.html#kontakt">Kontakt</a>
+        </nav>
       </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <a class="footer-brand" href="index.html">Tre lektioner i AI</a>
-        <p>Material för gymnasieskolan om AI, etik och lärande.</p>
-      </div>
-
-      <nav aria-label="Sidfot">
-        <a href="lektion-1.html">Lektion 1</a>
-        <a href="lektion-2.html">Lektion 2</a>
-        <a href="lektion-3.html">Lektion 3</a>
-        <a href="om-oss.html">Om oss</a>
-        <a href="index.html#kontakt">Kontakt</a>
-      </nav>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
