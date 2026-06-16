@@ -298,11 +298,18 @@ p {
   text-decoration: none;
 }
 
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .brand:hover {
   color: var(--color-ink);
 }
 
-.brand-mark {
+/* .brand-mark {
   display: grid;
   place-items: center;
   width: 46px;
@@ -316,7 +323,7 @@ p {
   border-radius: 1rem;
   font-weight: 800;
   letter-spacing: -0.05em;
-}
+} */
 
 .brand-text {
   display: grid;
